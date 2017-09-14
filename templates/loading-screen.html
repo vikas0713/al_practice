@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>::AUTO-LIFE::</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- fontawesome CSS -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<!-- Custom CSS -->
+
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link rel="stylesheet" type="text/css" href="css/desk.css" />
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+<script src="js/jquery-min.js"></script>
+
+<!--custom js-->
+<script type="text/javascript">
+/*setInterval(updateDisplay, 1); // every millisecond call updateDisplay
+
+var value = 0;
+function updateDisplay(){
+	value++;	
+	if(value < 250) {
+		//window.location.replace('http://www.google.com');
+	}	
+	timerValue = value / 100;
+	$('#timer').find('.value').text(timerValue);
+}*/
+setInterval(updateDisplay, 1); // every millisecond call updateDisplay
+
+var value = 1000;
+function updateDisplay(){
+ value--; 
+ if(value > 0) { timerValue = (value / 500).toFixed(2);	
+ } else { window.location.replace('summary-page.html'); }
+ 
+ $('#timer').find('.value').text(timerValue);
+}
+</script>
+<!--custom js-->
+</head>
+<body>
+<!-----------------------------------------------------page7 start---------------------------------------------------------->
+
+<div id="page7">
+  
+  <div class="relative" id="loader_space">
+    
+    <div class="loader-bar-page">
+    <div class="container">
+    <h1>we're building your autolife</h1>
+    <div class="loader_main">
+    <div class="bg_transparent text-center">
+    <div id="timer"><span class="value">0</span> <em>sec</em></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+  </div>
+  
+  <!--summary section-->
+  
+  
+  
+  <!--summary section-->
+  <footer class="footer" id="foo_ter">
+    <div class="container">
+      <div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h1>Get a monthly news digest</h1>
+          <div class="div_combine">
+            <div class="text-fild">
+              <input placeholder="Enter your email" type="text">
+            </div>
+            <input value="sign up" type="submit">
+          </div>
+          
+          <!--social media-->
+          <div class="social-sec_div">
+            <h1>Stay Connected to Autolife</h1>
+            <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"> <i class="fa fa-instagram"></i></a> <a href="#"> <i class="fa fa-youtube"></i></a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottm-bar" >
+      <section class="container-fluid">
+        <div> <em>&copy; AutoLife2017/2018, All Rights Reserved</em>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+
+<!-----------------------------------------------------page7 end----------------------------------------------------------> 
+
+
+
+
+
+
+
+
+        <script>
+$( ".fa-search" ).click(function() {
+  $( ".search-bar" ).toggleClass( "search-act" );
+});
+</script>
+
+</body>
+</html>
+

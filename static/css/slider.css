@@ -1,0 +1,127 @@
+
+.ca-container{
+	position:relative;
+	margin:25px auto 20px auto;
+	width:100%;
+	height:550px;
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:35%;
+	height:100%;
+	text-align:center;
+}
+
+
+.ca-item-main{
+	padding:10px;
+	position:relative;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background:#fff;
+	overflow:hidden;
+	
+}
+
+.ca-item-main h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 50px 0 20px;
+  text-align: left;
+}
+.ca-item-main h4 {
+  color: #000;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 15px 0 0;
+  text-align: left;
+}
+
+
+.slider-content {
+  margin: 0 35px;
+  width: 86%;
+}
+.ca-nav span{
+	width:25px;
+	height:38px;
+	background:transparent url(../img/arrows.png) no-repeat top left;
+	position:absolute;
+	top:400px;
+	margin-top:-19px;
+	left:34%;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:28%;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}
+@media(max-width:1199px){
+.ca-item{width:250px;}
+.ca-nav span {
+  left: 21%;
+}
+.ca-nav span.ca-nav-next {
+  right: 51%;
+}
+.slider-content {
+  margin: 0;
+  width: 200px;
+}	
+}
+@media(max-width:991px) {
+	
+.ca-item-main h4 {
+ 
+  font-size: 13px;
+
+  margin: 15px 30px 0 0;
+  
+}	
+}
+
+@media(max-width:768px){
+.slider-content {
+  margin: 0;
+  width: auto;
+}
+.ca-item {
+  width: 280px;
+}
+.ca-nav span{left:33%;}
+.ca-nav span.ca-nav-next{right:25%;}	
+}
+
+@media (max-width:767px){
+	
+.ca-nav span {
+  left: 0;
+}
+.ca-nav span.ca-nav-next {
+  right: 0;
+}	
+.slider-content {
+  margin: 0 auto;
+  width: 210px;
+}
+.ca-item-main h4 {
+  font-size: 13px;
+  margin: 15px 0 0;
+}
+}

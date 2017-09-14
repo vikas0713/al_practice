@@ -1,0 +1,463 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>::AUTO-LIFE::</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- fontawesome CSS -->
+<link href="{% static "font-awesome/css/font-awesome.min.css"%}" rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.min.css"%}" />
+<!-- Custom CSS -->
+
+<link rel="stylesheet" type="text/css" href="{% static "css/custom.css"%}" />
+<link rel="stylesheet" type="text/css" href="{% static "css/desk.css"%}"/>
+<link rel="stylesheet" type="text/css" href="{% static "css/rangeslider-soft-register.css"%}" />
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"%}"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"%}"></script>
+	<![endif]-->
+<script src="{% static "js/jquery-min.js"%}"></script>
+
+<!--custom js-->
+
+<!--custom js-->
+
+</head>
+
+<body>
+
+<!-----------------------------------------------------page7 start---------------------------------------------------------->
+
+<div id="page7">
+  <div class="desktop_header">
+    <section class="container-fluid">
+      <div> 
+        <!--left-->
+        <div class="div-hide-show"> <a href="index.html" a class="logo"><img src="{% static "img/web-logo.png"></a>
+          <div class="clickhide">
+            <div class="head-left">
+              <figure>
+                <figcaption style="position:relative; margin-top:15px;">The more we get to know each other the more exciting your AutoLife </figcaption>
+              </figure>
+            </div>
+            <!--left--> 
+            
+            <!--right--> 
+            <!--<div class="right-link"> <em><i class="fa fa-plus-circle" aria-hidden="true"></i>How are we doing? <a href="#">Tell us.</a></em> 
+              
+             
+            <div class="div_search"> <i class="fa fa-search"></i>
+              <div class="search-bar">
+                <input type="text" value="">
+              </div>
+            </div>
+            
+            </div>--> 
+            <!--right--> 
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="relative">
+    <div class="value-labe11">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12"> 
+            <!--progress bar-->
+            <div class="hide-show">
+              <div class="start">Start</div>
+              <div class="dotted-point">
+                <div id="dot_after"></div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="finish">Finish</div>
+            </div>
+            <div class="container"> 
+              
+              <!--progress bar level1-->
+              <div class="value-label2"> 
+                <!-- Step-3 Page - begin -->
+                <div class="div_center">
+                  <h1>how much do you love your car?</h1>
+                  <img src="{% static "img/bg3.jpg"%}"%}" class="img-responsive" id="imgID2">
+                  <h3>Slide to select your answer </h3>
+                  <!--range slider-->
+                  <div class="main-ranger">
+                    <div id="ex1Slider">
+                      <input id="ex1" type="range1" value="0" min="0" max="10" step="5">
+                    </div>
+                    <ul>
+                      <li>it's my baby</li>
+                      <li>get from to a to b </li>
+                      <li>what car?</li>
+                    </ul>
+                  </div>
+                  <!--range slider-->
+                  <div class="clearfix"></div>
+                  <div class="video-start-btn"> <a href="javascript:void(0);" id="value2" class="pulse-button_1"> continue</a></div>
+                  <div class="clearfix"></div>
+                  <h2><a href="javascript:void(0);" class="text-center">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+                  <!--<a class="next-button step4" href="javascript:void(0);">next</a>
+						<div class="clearfix"></div>
+						<h3 class="text-center step4"><a href="javascript:void(0);">skip</a></h3>--> 
+                  
+                  <!-- Step-3 Page - end --> 
+                </div>
+                <!--progress bar level1--> 
+              </div>
+              
+              <!--step2-->
+              <div id="lifestyle_bar">
+                <div class="container">
+                  <h1>select the type of magazine you read</h1>
+                  <div class="lifestyle_bar">
+                    <div class="col-sm-4" id="img_text_no">
+                      <figure> <img src="{% static "img/skat-img2.png" alt="Chicago" style="width:100%; border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; -webkit-border-radius:10px 0 0 10px; -ms-border-radius:10px 0 0 10px;"> 
+                        <!--<figcaption>Lifestyle</figcaption>--> 
+                      </figure>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="head_search">
+                        <h6>Select as many as you like. We'll customize your AutoLife.</h6>
+                      </div>
+                      <div class="checkboxes_area_bar">
+                        <form id="formID" action="">
+                          <div class="col-sm-6" id="without_spac">
+                            <input type="checkbox" id="a" name="a" />
+                            <label for="a"><span></span>Travel</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="b" name="b" />
+                            <label for="b"><span></span>Sports</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="c" name="c" />
+                            <label for="c"><span></span>Road trips</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="c_1" name="c" />
+                            <label for="c_1"><span></span>Music</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="c_2" name="c" />
+                            <label for="c_2"><span></span>Cooking</label>
+                          </div>
+                          <div class="col-sm-6" id="without_spac">
+                            <input type="checkbox" id="d" name="d" />
+                            <label for="d"><span></span>Women's Fashion/Style</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="e" name="e" />
+                            <label for="e"><span></span>Men's Fashion/Style</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="f" name="f" />
+                            <label for="f"><span></span>Autonomous Driving</label>
+                            <div class="clearfix"></div>
+                            <input type="checkbox" id="f_1" name="f" />
+                            <label for="f_1"><span></span>Ride Sharing</label>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="small-conti-btn"> <a href="javascript:void(0);" id="register3" class="pulse-button_1"> continue</a></div>
+                <div class="clearfix"></div>
+                <h2><a href="javascript:void(0);" class="text-center">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+              </div>
+              <!--step2--> 
+              
+              <!--step3-->
+              
+              <div id="three_column_img">
+                <div class="three-slide-div text-center">
+                  <h1>the most important thing i put in my car is...</h1>
+                  <ul>
+                    <li><a href="javascript:void(0);" class="go-next4"><img src="{% static "img/ico1.jpg"%}" class="pulse-button_1">My stuff</a></li>
+                    <li><a href="javascript:void(0);" class="go-next5"><img src="{% static "img/ico2.jpg"%}">my friends & family</a></li>
+                    <li><a href="javascript:void(0);" class="go-next6"><img src="{% static "img/ico3.jpg"%}">me</a></li>
+                  </ul>
+                  <div class="clearfix"></div>
+                  <h2><a href="loading-screen.html" class="skip-this">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+                </div>
+              </div>
+              <!--step3--> 
+              
+              <!--step4--> 
+              <!--<div class="four-slides-div text-center" >
+                    
+                    <h1>which describes you and your car the best</h1>
+                    
+                    <ul>
+                    <li><a href="loading-screen.html" class="skip-this" id="last-step-login"><img src="{% static "img/ico5.png" class="pulse-button_1">Can You Get Free Games For <br> Your Iphone</a></li>
+                    <li><a href="javascript:void(0);"><img src="{% static "img/ico6.png">Dealing With technical Support <br> 10 Useful Tips</a></li>
+                     <li><a href="javascript:void(0);"><img src="{% static "img/ico7.png">Life Advice Looking Through a <br> Window.</a></li>
+                     <li><a href="javascript:void(0);"><img src="{% static "img/ico8.png">Linux Or Windows Which Is It</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <h2><a href="loading-screen.html" class="skip-this">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+                    
+                    </div>--> 
+              <!--step4--> 
+              
+              <!--step5-->
+              
+              <div class="four-slides-div text-center" >
+                <h1>which describes you and your car the best</h1>
+                <ul>
+                  <li><a href="loading-screen.html" class="skip-this" id="last-step-login"><img src="{% static "img/ico5.png" class="pulse-button_1">Can You Get Free Games For <br>
+                    Your Iphone</a></li>
+                  <li><a href="loading-screen.html"><img src="{% static "img/ico6.png">Dealing With technical Support <br>
+                    10 Useful Tips</a></li>
+                  <li><a href="loading-screen.html"><img src="{% static "img/ico7.png">Life Advice Looking Through a <br>
+                    Window.</a></li>
+                  <li><a  href="loading-screen.html"><img src="{% static "img/ico8.png">Linux Or Windows Which Is It</a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <h2><a href="loading-screen.html" class="skip-this">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+              </div>
+              
+              <!--step5-->
+              
+              <div class="four-slides-div_1 text-center" >
+                <h1>which describes you and your car the best</h1>
+                <ul>
+                  <li><a href="loading-screen.html"><img src="{% static "img/ico6.png">Dealing With technical Support <br>
+                    10 Useful Tips</a></li>
+                  <li><a href="loading-screen.html" class="skip-this" id="last-step-login"><img src="{% static "img/ico5.png" class="pulse-button_1">Can You Get Free Games For <br>
+                    Your Iphone</a></li>
+                  <li><a href="loading-screen.html"><img src="{% static "img/ico7.png">Life Advice Looking Through a <br>
+                    Window.</a></li>
+                  <li><a  href="loading-screen.html"><img src="{% static "img/ico8.png">Linux Or Windows Which Is It</a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <h2><a href="loading-screen.html" class="skip-this">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+              </div>
+              
+              <!--step5-->
+              <div class="four-slides-div_2 text-center" >
+                <h1>which describes you and your car the best</h1>
+                <ul>
+                  <li><a href="javascript:void(0);"><img src="{% static "img/ico6.png">Dealing With technical Support <br>
+                    10 Useful Tips</a></li>
+                  <li><a href="loading-screen.html"><img src="{% static "img/ico7.png">Life Advice Looking Through a <br>
+                    Window.</a></li>
+                  <li><a href="loading-screen.html" class="skip-this" id="last-step-login"><img src="{% static "img/ico5.png" class="pulse-button_1">Can You Get Free Games For <br>
+                    Your Iphone</a></li>
+                  <li><a  href="loading-screen.html"><img src="{% static "img/ico8.png">Linux Or Windows Which Is It</a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <h2><a href="loading-screen.html" class="skip-this">skip this <i class="fa fa-long-arrow-right"></i></a></h2>
+              </div>
+              <!--step5--> 
+              
+              <!--step5--> 
+              
+              <!--<div id="soft-regis-login" class="text-center">
+              <h1>sign up  for auto life</h1>
+              <p>You're 2 clicks away from joining millions from Canadian Drivers like you.</p>
+               <a href="javascript:void(0);" class="facebook-button"><i class="fa fa-facebook"></i></a> 
+          
+       
+          
+          
+          <a href="javascript:void(0);" class="facebook-button"><i class="fa fa-google-plus"></i></a> 
+        
+          
+         
+          <a href="javascript:void(0);" class="facebook-button by-email pulse-button_1" id="gotostep6"><em>Registered by email</em></a> 
+       
+              </div>--> 
+              
+              <!--step5--> 
+              
+              <!--step6--> 
+              
+              <!--<div id="soft-regis-form-fill" class="text-center">
+              <h1>sign up  for auto life</h1>
+              <p>You're 2 clicks away from joining millions from Canadian Drivers like you.</p>
+              <div class="email_register_signup_form">  
+        <form id="email-register-home" data-toggle="validator" role="form" action="#">	
+							<div class="radio-field">         
+								<div class="radius-div">
+									<div class="form-group has-feedback">
+										<div class="input-field radius-div input-box">
+											<input id="icon_prefix" type="text" value="" required class="validate form-control"/>
+											<label for="icon_prefix">First Name</label>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-field" id="step9">
+								<div class="radius-div">
+									<div class="form-group has-feedback">
+										<div class="input-field radius-div input-box">
+											<input id="last_name" type="text" value="" required class="validate form-control"/>
+											<label for="last_name">Last Name</label>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-field" id="step9">
+								<div class="radius-div">
+									<div class="form-group has-feedback">
+										<div class="input-field radius-div input-box">
+											<input id="email" type="email" value="" required class="validate form-control"/>
+											<label for="email">Email</label>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-field" id="step9">
+								<div class="radius-div">
+									<div class="form-group has-feedback">
+										<div class="input-field radius-div input-box">
+											<input id="icon_telephone" type="password" value=""  class="form-control"/>
+											<label for="icon_telephone">Password</label>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+                            
+                            <div class="radio-field" id="step9">
+								<div class="radius-div">
+									<div class="form-group has-feedback">
+										<div class="input-field radius-div input-box">
+											<input id="icon_telephone" type="password" value=""  class="form-control"/>
+											<label for="icon_telephone">Confirm Password</label>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+					
+							<div class="radio-field" id="step9">
+								<div class="radius-div">
+									<div class="form-group has-feedback">
+										<div class="input-field radius-div input-box">
+											<input id="icon_telephone" type="tel" value=""  class="form-control"/>
+											<label for="icon_telephone">Mobile (optional)</label>
+											<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+                            
+                            <div class="small-conti-btn pulse-button_1"><a href="home-page-secure.html">continue</a></div>
+						</form>
+                        </div>
+              </div>--> 
+              
+              <!--step6--> 
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!------------------------------------------step1 start----------------------------> 
+  
+  <!-----------------------------------step2 end-------------------------------->
+  <footer class="footer" id="foo_ter">
+    <div class="container">
+      <div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="javascript:void(0);"> ipsum sit dolor amit </a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="javascript:void(0);"> ipsum sit dolor amit </a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="javascript:void(0);"> ipsum sit dolor amit </a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="javascript:void(0);"> ipsum sit dolor amit </a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+            <li><a href="javascript:void(0);">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h1>Get a monthly news digest</h1>
+          <div class="div_combine">
+            <div class="text-fild">
+              <input placeholder="Enter your email" type="text">
+            </div>
+            <input value="sign up" type="submit">
+          </div>
+          
+          <!--social media-->
+          <div class="social-sec_div">
+            <h1>Stay Connected to Autolife</h1>
+            <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"> <i class="fa fa-instagram"></i></a> <a href="#"> <i class="fa fa-youtube"></i></a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottm-bar" >
+      <section class="container-fluid">
+        <div> <em>&copy; AutoLife2017/2018, All Rights Reserved</em>
+          <ul>
+            <li><a href="javascript:void(0);">Privacy</a></li>
+            <li><a href="javascript:void(0);">Terms of Use</a></li>
+            <li><a href="javascript:void(0);">Accessibility</a></li>
+            <li><a href="javascript:void(0);">Disclaimer</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+
+<!-----------------------------------------------------page7 end----------------------------------------------------------> 
+
+<!--
+        <script>
+$( ".fa-search" ).click(function() {
+  $( ".search-bar" ).toggleClass( "search-act" );
+});
+</script>--> 
+
+<script src="{% static "js/custom.js"%}"></script> 
+<script src="{% static "js/rangeslider.js"%}"></script> 
+<script src="{% static "js/materialize.js"%}"></script>
+</body>
+</html>

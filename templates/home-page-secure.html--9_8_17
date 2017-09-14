@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>::AUTO-LIFE::</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- fontawesome CSS -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<!-- Custom CSS -->
+
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css" />
+<link rel="stylesheet" type="text/css" href="css/desk.css" />
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+<script src="js/jquery-min.js"></script>
+
+<!--custom js-->
+
+<!--custom js-->
+
+</head>
+
+<body>
+
+<!-----------------------------------------------------page7 start---------------------------------------------------------->
+
+<div id="page7">
+  <div class="desktop_header">
+    <section class="container-fluid">
+      <div> 
+        <!--left-->
+        <div class="div-hide-show"> <a href="index.html" a class="logo"><img src="img/web-logo.png"></a>
+          <div class="clickhide">
+            <div class="head-left">
+             <!-- <figure>
+                <figcaption>join the millions of <br>
+                  Canadian drivers like you!</figcaption>
+              </figure>-->
+            <!--<div class="register-div">
+                <ul>
+                  <li><a href="#"><img src="img/ar.png"> Register</a></li>
+                  <li><a href="#"><img src="img/key.png">Login</a></li>
+                </ul>
+              </div>-->
+            </div>
+            <!--left--> 
+            <div class="profile-login" id="home_secure">
+              <ul>
+                <li><a href="#"><img src="img/profile-pic.png"> Hi, Kerin </a></li>
+                <li><span><a href="#"><img src="img/ar.png">Profile </a></span></li>
+              </ul>
+            </div>
+            <!--center section-->
+            <!--<div class="profile-login">
+              <ul>
+                <li><a href="#"><img src="img/profile-pic.png"> Hi, Kerin </a></li>
+                <li><span><a href="#"><img src="img/ar.png">Profile </span></a></li>
+              </ul>
+            </div>-->
+            <!-- center section--> 
+            
+            <!--right-->
+            <!--<div class="right-link"> <em><i class="fa fa-plus-circle" aria-hidden="true"></i>How are we doing? <a href="#">Tell us.</a></em> 
+              
+            
+              <div class="div_search"> <i class="fa fa-search"></i>
+                <div class="search-bar">
+                  <input type="text" value="">
+                </div>
+              </div>
+             
+            </div>-->
+            
+            <div class="right-link" id="new_head_right">
+            
+            <!--<div id="search_bar_pro_log">
+                <ul>
+                <li><a href="#"><img src="img/profile-pic.png"> Hi, Kerin </a></li>
+                <li><span><a href="#"><img src="img/ar.png">Profile </a></span></li>
+                </ul>
+                </div>-->
+            
+            <div id="login_right_panel">
+               
+              <ul>
+               <!--<li><a href="#"><img src="img/profile-pic.png"> Hi, Kerin </a></li>
+                <li><span><a href="#"><img src="img/ar.png">Profile </a></span></li>-->
+                <li><a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> How are we doing?</a></li> 
+              </ul>
+           
+                  
+                  
+                  
+              
+     
+              </div>
+                <!--search-->
+                
+                
+                
+            <div class="div_search" id="for_home_secure"> <i class="fa fa-search"> <!--<span>Search</span>--></i>
+              <div class="search-bar">
+                <input type="text" value="">
+              </div>
+            </div>
+            <!--search--> 
+            </div>
+            <!--right--> 
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="relative">
+    <div class="tab-bar" id="tab-hide">
+      <div class="container">
+        <div class="main" id="three_tab">
+          <nav id="cbp-hrmenu" class="cbp-hrmenu">
+            <ul>
+              <li> <a href="#">marketplace</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="img/1.jpg">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"><img src="img/2.jpg">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/3.jpg">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="img/play2.png" class="icon-play"></a> </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/4.jpg">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                </div>
+                <!-- /cbp-hrsub --> 
+              </li>
+              <li> <a href="#">contests</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="img/1.jpg">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/2.jpg">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/3.jpg">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="img/play2.png" class="icon-play"></a></div>
+                     <!-- <a href="#"><img src="img/play2.png" class="icon-play"></a>-->
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/4.jpg">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                </div>
+                <!-- /cbp-hrsub --> 
+              </li>
+              <li> <a href="#">My autolife</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="img/1.jpg">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/2.jpg">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/3.jpg">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="img/play2.png" class="icon-play"></a> </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/4.jpg">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                </div>
+                <!-- /cbp-hrsub --> 
+              </li>
+              <!--<li> <a href="#">Lorem Ipsum</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="img/1.jpg">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/2.jpg">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/3.jpg">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="img/play2.png" class="icon-play"></a></div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="img/4.jpg">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                <!--  </div>
+               /cbp-hrsub 
+              </li>-->
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--summary section-->
+  
+  <div class="summary_sec">
+    <div class="container-fluid">
+      <div class="left-side-fulll-width"> 
+        <!--left side-->
+        <div class="left-column" id="height_width_"> 
+          
+          <!--1-->
+          <div class="si_gnup no_pad" id="height_12">
+            <div class="on-hover text-center">
+              <div class="volks-img">
+                <div class="volks_content">
+                  <ul>
+                    <li><a href="javascript:void(0);"><img src="img/like-black.png"></a></li>
+                    <li><a href="javascript:void(0);"><img src="img/dislike-black.png"></a></li>
+                  </ul>
+                  <div class="clearfix"></div>
+                  <div class="align_center">
+                  <h1> the fiat 500: <br>
+                    a handbag on wheels?</h1>
+                  <p>Whatever the case, we <br>
+                    all agree;it's <br>
+                    downright sexy. </p>
+                  <div class="btn-signup-button"> <a href="javascript:void(0);">read</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--1--> 
+          
+          <!--2-->
+          <div class="si_gnup for-right" id="height_11">
+            <p>Get Connected </p>
+            <ul>
+              <li><a href="javascript:void(0);"><img src="img/like.png"></a></li>
+              <li><a href="javascript:void(0);"><img src="img/dislike.png"></a></li>
+            </ul>
+           <div class="block8"></div>
+            <h4>If you have questions that we can't answer, we'll find the best person <br>
+              connect you with</h4>
+            <a class="get-started" href="javascript:void(0);">start</a> </div>
+          
+          <!--2-->
+          
+          <div class="clearfix"></div>
+          
+          <!--1-->
+          <div class="si_gnup" id="height_13">
+            <p>"Tyrant" - Kali Uchis </p>
+            <ul>
+              <li><a href="javascript:void(0);"><img src="img/like.png"></a></li>
+              <li><a href="javascript:void(0);"><img src="img/dislike.png"></a></li>
+            </ul>
+            <div class="clearfix"></div>
+            <h4>ft jorga smith | sunday Vitamins <br>
+              Hear the latest from this sultry <br>
+              Colombian sensation.</h4>
+            <a href="javascript:void(0);"> 
+            <div class="block6"></div>
+            </a> </div>
+          
+          <!--1--> 
+          
+          <!--2-->
+          <div class="si_gnup for-right" id="height_14">
+            <p>22 recipes for Healthy <br>
+              Road Trip Snacks</p>
+            <ul>
+              <li><a href="javascript:void(0);"><img src="img/like.png"></a></li>
+              <li><a href="javascript:void(0);"><img src="img/dislike.png"></a></li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="on-hover text-center">  <div class="block7"></div>
+              <div class="btn-signup-button"> <a href="javascript:void(0);">view gallery</a></div>
+            </div>
+          </div>
+          <!--2--> 
+          
+        </div>
+        <!--left column--> 
+        
+        <!--right column-->
+        <div class="right-column" id="height_width_">
+          <div class="background-grey text-center">
+            <div class="auto-life-secure-signup">
+            <div class="home_secure_like">
+            <ul>
+              <li><a href="javascript:void(0);"><img src="img/like.png"></a></li>
+              <li><a href="javascript:void(0);"><img src="img/dislike.png"></a></li>
+            </ul>
+            </div>
+            <div class="clearfix"></div>
+              <h6>the best tools and products for <br>
+                healthy , shiny hair</h6>
+              <h5>You know that feeling  when your hair is so on point <br>
+                nothing elase matters? Ah the power of a good hair day.</h5>
+              <div class="all-page-start_up"><a href="javascript:void(0);">read</a></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <!--right column-->
+        
+        <div class="two-sided-layout"> 
+          <!--slider-->
+          <div class="background-grey">
+            <div class="bottom-slider" id="without_spc"> <em>autolife exclusive!</em>
+              <ul>
+                <li><a href="javascript:void(0);"><img src="img/like.png"></a></li>
+                <li><a href="javascript:void(0);"><img src="img/dislike.png"></a></li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <div id="height_15">
+              <section>
+                <article> Enter for Your Chance to Win a <br>
+                  Fiat of Your Choice. </article>
+                <div class="all-page-start_up"><a href="javascript:void(0);">details</a></div>
+              </section>
+            </div>
+          </div>
+          
+          <!--slider-->
+          
+          <div class="adver-free" id="height_16">
+            <div class="background-grey" id="advertise">
+              <div class="bottom-slider">
+                <ul>
+                  <li><a href="javascript:void(0);"><img src="img/like.png"></a></li>
+                  <li><a href="javascript:void(0);"><img src="img/dislike.png"></a></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <div class="right_left_layout">
+                <div class="auto-content-left">
+                  <h1>Aston Martin : Putting <br>
+                    Women in the Driver's <br>
+                    Seat</h1>
+                  <h4>The car industry is finally waking <br>
+                    up to the fact that nearly half of all <br>
+                    drivers are women.</h4>
+                  <a class="get-started" href="javascript:void(0);">read</a> </div>
+                <img src="img/sc6.jpg"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--summary section-->
+  <footer class="footer" id="foo_ter">
+    <div class="container">
+      <div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h1>Get a monthly news digest</h1>
+          <div class="div_combine">
+            <div class="text-fild">
+              <input placeholder="Enter your email" type="text">
+            </div>
+            <input value="sign up" type="submit">
+          </div>
+          
+          <!--social media-->
+          <div class="social-sec_div">
+            <h1>Stay Connected to Autolife</h1>
+            <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"> <i class="fa fa-instagram"></i></a> <a href="#"> <i class="fa fa-youtube"></i></a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottm-bar" >
+      <section class="container-fluid">
+        <div> <em>&copy; AutoLife2017/2018, All Rights Reserved</em>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+
+<!-----------------------------------------------------page7 end----------------------------------------------------------> 
+
+<script src="js/cbpHorizontalMenu.min.js"></script> 
+<script>
+			$(function() {
+				cbpHorizontalMenu.init();
+			});
+		</script> 
+<script>
+$( ".fa-search" ).click(function() {
+  $( ".search-bar" ).toggleClass( "search-act" );
+});
+</script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-slider.js"></script>
+</body>
+</html>

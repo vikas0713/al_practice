@@ -1,0 +1,138 @@
+.cbp-hrmenu {
+	width: 100%;/*	margin-top: 2em;
+	border-bottom: 4px solid #47a3da;*/
+}
+/* general ul style */
+.cbp-hrmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* first level ul style */
+.cbp-hrmenu > ul, .cbp-hrmenu .cbp-hrsub-inner {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.cbp-hrmenu > ul > li {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+#three_tab .cbp-hrmenu > ul > li{width:33%;}
+.cbp-hrmenu > ul > li > a {
+	font-weight: 500;
+	font-size: 15px;
+	display: inline-block;
+	padding: 0 28%;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	list-style: none;
+	line-height: 50px;
+	transition: background 500ms ease-in-out;
+	-moz-transition: background 500ms ease-in-out;
+	-webkit-transition: background 500ms ease-in-out;
+	-ms-transition: background 500ms ease-in-out;
+	transition: 500ms ease-in-out;
+	cursor: pointer;
+}
+.cbp-hrmenu > ul > li > a:hover {
+	color: #101010;
+	text-decoration: none;
+	background: #fff;
+}
+.cbp-hrmenu > ul > li.cbp-hropen a, .cbp-hrmenu > ul > li.cbp-hropen > a:hover {
+	color: #101010;
+	text-decoration: none;
+	background: #fff;
+}
+/* sub-menu */
+.cbp-hrmenu .cbp-hrsub {
+	display: none;
+	position: absolute;
+	background: #f2f6f5;
+	width: 94%;
+	left: 3%;
+	right: 3%;
+	z-index: 999999;
+}
+.cbp-hropen .cbp-hrsub {
+	display: block;
+	padding-bottom: 3em;
+}
+.cbp-hrmenu .cbp-hrsub-inner > div {
+	width: 25%;
+	float: left;
+	padding: 2em;
+}
+.cbp-hrmenu .cbp-hrsub-inner:before, .cbp-hrmenu .cbp-hrsub-inner:after {
+	content: " ";
+	display: table;
+}
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	clear: both;
+}
+.cbp-hrmenu .cbp-hrsub-inner > div a {
+	line-height: inherit;
+	padding: 10px 0;
+}
+.cbp-hrsub h4 {
+	color: #afdefa;
+	padding: 2em 0 0.6em;
+	margin: 0;
+	font-size: 160%;
+	font-weight: 300;
+}
+@media (max-width:1199px) {
+.cbp-hrmenu > ul > li > a {
+	padding: 0 15px;
+}
+.cbp-hrmenu .cbp-hrsub-inner > div a{ padding:5px 0; font-size:13px;}
+}
+/* Examples for media queries */
+
+@media screen and (max-width: 52.75em) {
+.cbp-hrmenu {
+	font-size: 80%;
+}
+}
+ @media screen and (max-width: 43em) {
+.cbp-hrmenu {
+	font-size: 120%;
+	border: none;
+}
+.cbp-hrmenu > ul, .cbp-hrmenu .cbp-hrsub-inner {
+	width: 100%;
+	padding: 0;
+}
+.cbp-hrmenu .cbp-hrsub-inner {
+	padding: 0 2em;
+	font-size: 75%;
+}
+.cbp-hrmenu > ul > li {
+	display: block;/*border-bottom: 4px solid #47a3da;*/
+}
+.cbp-hrmenu > ul > li > a {
+	display: block;
+	padding: 1em 3em;
+}
+.cbp-hrmenu .cbp-hrsub {
+	position: relative;
+}
+.cbp-hrsub h4 {
+	padding-top: 0.6em;
+}
+}
+ @media screen and (max-width: 36em) {
+.cbp-hrmenu .cbp-hrsub-inner > div {
+	width: 100%;
+	float: none;
+	padding: 0 2em;
+}
+.cbp-hrmenu .cbp-hrsub-inner > div {
+	padding: 10px 0;
+}
+}

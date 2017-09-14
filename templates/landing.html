@@ -1,0 +1,518 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>::AUTO-LIFE::</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- fontawesome CSS -->
+<link href="{%  static "font-awesome/css/font-awesome.min.css"%}" rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+
+<!-- Custom CSS -->
+
+<link rel="stylesheet" type="text/css" href="{% static  "css/custom.css"%}" />
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+<script src="{% static "js/jquery-min.js"%}"></script>
+
+<!--custom js-->
+
+<!--custom js-->
+
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		}, 6000);
+	});
+});
+</script>
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.min.css"%}"/>
+<!-- Custom CSS -->
+
+<link rel="stylesheet" type="text/css" href="{%  static "css/custom.css"%}"/>
+<link rel="stylesheet" type="text/css" href="{%  static "css/component.css"%}"/>
+<link rel="stylesheet" type="text/css" href="{%  static "css/desk.css"%}"/>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+<!--custom js-->
+
+<!--custom js-->
+
+</head>
+
+<body>
+
+<!-----------------------------------------------------page7 start---------------------------------------------------------->
+
+<div id="page7">
+  <div class="desktop_header">
+    <section class="container-fluid">
+      <div> 
+        <!--left-->
+        <div class="div-hide-show"> <a href="index.html" a class="logo"><img src="{% static "img/web-logo.png"%}"></a>
+          <div class="clickhide">
+            <div class="head-left">
+              <figure>
+                <figcaption>join the millions of <br>
+                  Canadian drivers like you!</figcaption>
+              </figure>
+              <div class="register-div">
+                <ul>
+                  <li><a href="#"><img src="{% static "img/ar.png"%}"> Register</a></li>
+                  <li><a href="#"><img src="{% static "img/key.png"%}">Login</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--left--> 
+            
+            <!--right-->
+            <div class="right-link" id="new_head_right"> 
+              <!-- <div id="login_right_panel">
+               
+              <ul>
+                <li><a href="#"><img src="{% static "img/profile-pic.png"%}"> Hi, Kerin </a></li>
+                <li><span><a href="#"><img src="{% static "img/ar.png"%}">Profile </a></span></li>
+                <li><a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> How are we doing?</a></li> 
+              </ul>
+           
+                  
+                  
+                  
+              
+     
+              </div>-->
+              <div id="login_right_panel" >
+                <ul>
+                  <li style="visibility:hidden;"><a href="#"><img src="{% static "img/profile-pic.png"%}"> Hi, Kerin </a></li>
+                  <li style="visibility:hidden;"><span><a href="#"><img src="{% static "img/ar.png"%}">Profile </a></span></li>
+                  <li><a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> How are we doing? Tell us</a></li>
+                </ul>
+              </div>
+              <!--search-->
+              <div class="div_search"> <i class="fa fa-search"> <!--<span>Search</span>--></i>
+                <div class="search-bar">
+                  <input type="text" value="">
+                </div>
+              </div>
+              <!--search--> 
+            </div>
+            <!--right--> 
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="relative">
+    <div class="tab-bar" id="tab-hide">
+      <div class="container-fluid">
+        <div class="main" id="three_tab">
+          <nav id="cbp-hrmenu" class="cbp-hrmenu">
+            <ul>
+              <li> <a href="#">marketplace</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/1.jpg"%}">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"><img src="{% static "img/2.jpg"%}">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/3.jpg"%}">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="{% static "img/play2.png"%}" class="icon-play"></a> </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/4.jpg"%}">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                </div>
+                <!-- /cbp-hrsub --> 
+              </li>
+              <li> <a href="#">contests</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/1.jpg"%}">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/2.jpg"%}">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/3.jpg"%}">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="{% static "img/play2.png"%}" class="icon-play"></a></div>
+                      <a href="#"><img src="{% static "img/play2.png"%}" class="icon-play"></a>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/4.jpg"%}">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                </div>
+                <!-- /cbp-hrsub --> 
+              </li>
+              <li> <a href="#">My autolife</a>
+                <div class="cbp-hrsub">
+                  <div class="cbp-hrsub-inner">
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/1.jpg"%}">
+                        <h1>Travel</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/2.jpg"%}">
+                        <h1>Tech</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/3.jpg"%}">
+                        <h1>Lorem Ipsum</h1>
+                        <a href="#"><img src="{% static "img/play2.png"%}" class="icon-play"></a> </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="cat-tit"> <img src="{% static "img/4.jpg"%}">
+                        <h1>Music</h1>
+                      </div>
+                      <ul class="listing-div">
+                        <li><a href="#"><span>Lorem ipsum sit dolor amit</span></a></li>
+                        <li><a href="#">Duis aute irure</a></li>
+                        <li><a href="#">Dolor in reprehenderit</a></li>
+                        <li><a href="#">In voluptate velit</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /cbp-hrsub-inner --> 
+                </div>
+                <!-- /cbp-hrsub --> 
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--registration section-->
+  <div class="video-version"> 
+    
+    <!--desktop video-->
+    
+    <div class="video-section_1 desktop-play" id="vidCont">
+      <video preload="auto" poster="{% static "video/video.jpg"%}" id="bgvid" autoplay loop>
+        
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  --> 
+        <!--source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"-->
+        <source src="{% static "video/autolife.mp4"%}" type="video">
+      </video>
+      <select style="display:none" name="lang">
+      </select>
+      <select style="display:none" name="stretching">
+      </select>
+      <select style="display:none" name="sources">
+      </select>
+      
+      <!--text-->
+      <div class="diV-pos text-center">
+        <h1>sign up for autolife</h1>
+        <h2>It's a place where nothing comes between you and the <br>
+          open road. Just great advice, friends and information you <br>
+          can actually use. No Sales.</h2>
+        <div class="video-start-btn"> <a href="/soft_registration/" id="value1"> start</a></div>
+        <a id="pop-up-video" href="javascript:void(0);" class="play-icon-desk"></a>
+        <h3>Why Join AutoLife</h3>
+        <h4>Watch a quick video to learn why you <br>
+          should join AutoLife.</h4>
+      </div>
+      <!--text--> 
+    </div>
+    
+    <!--desktop video end --> 
+    
+    <!--mobile video-->
+    
+    <div class="video-section_1" id="vidCont">
+      <div class="mobile-poster"> 
+        
+        <!--text-->
+        <div class="diV-pos text-center">
+          <h1>sign up for autolife</h1>
+          <h2>It's a place where nothing comes between you and the <br>
+            open road. Just great advice, friends and information you <br>
+            can actually use. No Sales.</h2>
+          <div class="video-start-btn"> <a href="soft-registration.html" id="value1"> start</a></div>
+          <a id="pop-up-video1" href="javascript:void(0);" class="play-icon-desk1"></a>
+          <h3>Why Join AutoLife</h3>
+          <h4>Watch a quick video to learn why you <br>
+            should join AutoLife.</h4>
+        </div>
+      </div>
+      <!--text--> 
+    </div>
+    <!-- mobile video--> 
+    
+  </div>
+  
+  <!--desktop popup-->
+  
+  <div class="video-player-popup">
+    <div class="container">
+      <div class="video-player_relative"> <a id="pop-up-close"><span class="fa fa-close"></span></a>
+        <video preload="auto" poster="{% static "video/video.jpg"%}" id="bgvid1" playsinline loop  controls autoplay>
+          
+          <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  --> 
+          <!--source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"-->
+          <source src="{% static "video/autolife2.mp4"%}" type="video">
+        </video>
+        <select style="display:none" name="lang">
+        </select>
+        <select style="display:none" name="stretching">
+        </select>
+        <select style="display:none" name="sources">
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <!--desktop popup--> 
+  
+  <!--mobile popup-->
+  
+  <div class="video-player-popup1">
+    <div class="container">
+      <div class="video-player_relative"> <a id="pop-up-close1"><span class="fa fa-close"></span></a>
+        <video preload="auto" poster="{% static "video/video2.jpg"%}" id="bgvid1" playsinline loop  controls autoplay >
+          
+          <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  --> 
+          <!--source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"-->
+          <source src="{% static "video/autolife2.mp4"%}" type="video">
+        </video>
+        <select style="display:none" name="lang">
+        </select>
+        <select style="display:none" name="stretching">
+        </select>
+        <select style="display:none" name="sources">
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <!--mobile popup--> 
+  
+  <!--registration section-->
+  <footer class="footer" id="foo_ter">
+    <div class="container">
+      <div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="one-column">
+          <h1>category1</h1>
+          <ul>
+            <li><a href="#"> ipsum sit dolor amit </a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+            <li><a href="#">Duis aute irure</a></li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h1>Get a monthly news digest</h1>
+          <div class="div_combine">
+            <div class="text-fild">
+              <input placeholder="Enter your email" type="text">
+            </div>
+            <input value="sign up" type="submit">
+          </div>
+          
+          <!--social media-->
+          <div class="social-sec_div">
+            <h1>Stay Connected to Autolife</h1>
+            <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"> <i class="fa fa-instagram"></i></a> <a href="#"> <i class="fa fa-youtube"></i></a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottm-bar" >
+      <section class="container-fluid">
+        <div> <em>&copy; AutoLife2017/2018, All Rights Reserved</em>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+
+<!-----------------------------------------------------page7 end----------------------------------------------------------> 
+
+<script src="{% static "js/cbpHorizontalMenu.min.js"%}"></script>
+<script>
+			$(function() {
+				cbpHorizontalMenu.init();
+			});
+		</script> 
+<script>
+$( ".fa-search" ).click(function() {
+  $( ".search-bar" ).toggleClass( "search-act" );
+});
+</script> 
+<script>
+$(document).ready(function(){
+    $("#pop-up-video").click(function(){
+        $(".video-player-popup").show();
+		$('body').css('overflow', 'hidden');
+		
+    });
+    $("#pop-up-close").click(function(){
+        $(".video-player-popup").hide();
+		$('body').css('overflow', 'auto');
+		var video = $("#bgvid1").get(0);
+		if (video.paused === false) {
+			video.pause();
+		}
+    });
+});
+</script> 
+
+<!--for mobile--> 
+
+<script>
+$(document).ready(function(){
+    $("#pop-up-video1").click(function(){
+        $(".video-player-popup").show();
+		$('body').css('overflow', 'hidden');
+		
+    });
+});
+</script> 
+
+<!--for mobile--> 
+
+<!--<script src="js/custom.js"></script>--> 
+<script src="{% static "js/vidScriptDesktop.js"%}"></script>
+<script src="{% static "js/video2.js"%}"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>::AUTO-LIFE::</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- fontawesome CSS -->
+<link href="{%  static "font-awesome/css/font-awesome.min.css"%}" rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+
+<!-- Custom CSS -->
+
+<link rel="stylesheet" type="text/css" href="{% static "css/custom.css"%}" />
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+<script src="{% static "js/jquery-min.js"%}"></script>
+
+<!--custom js-->
+
+<!--custom js-->
+<a title="Web Statistics" href="http://clicky.com/101072403"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(101072403); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101072403ns.gif" /></p></noscript>
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		}, 6000);
+	});
+});
+</script>
+</head>
+
+<body>
+<!--landing page start--> 
+<!--header-->
+<div id="page1">
+  <header>
+    <div class="main-wrapper">
+      <div class="row">
+        <div class="web-div">
+          <ul>
+            <li><a href="#" class="active"><img src="{% static "img/4.png"%}"> Karin</a></li>
+            <li><a href="#" ><img src="{% static "img/2.png"%}"> Shane</a></li>
+            <li><a href="#"><img src="{% static "img/1.png"%}"> Elijah</a></li>
+            <li><a href="#"><img src="{% static "img/3.png"%}"> Rebecca</a></li>
+          </ul>
+        </div>
+        <a href="index.html"><img src="{% static "img/logo.png"%}" class="main-logo"></a>
+        <div class="mob-div">
+          <ul>
+            <li><a href="#" class="active"><img src="{% static "img/4.png"%}"> Karin Miller</a></li>
+            <li><a href="#" ><img src="{% static "img/2.png"%}"> Shane</a></li>
+            <li><a href="#"><img src="{% static "img/1.png"%}"> Elijah</a></li>
+            <li><a href="#"><img src="{% static "img/3.png"%}"> Rebecca</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--header-->
+  
+  <div class="div-padding">
+    <div class="main-bg">
+      <div class="main-wrapper">
+        <div class="row"> 
+          <!--4 column-->
+          <div class="four-col-div"> 
+            <!--1-->
+            <div class="div-col1"> <img src="{% static "img/profile1.png"%}">
+              <div class="profile-detail">
+                <label>Name:</label>
+                <em>karin Miller</em> </div>
+              <div class="profile-detail">
+                <label>Age:</label>
+                <em>29 years old</em> </div>
+              <div class="profile-detail">
+                <label>Status:</label>
+                <em>Single</em> </div>
+            </div>
+            
+            <!--1--> 
+            <!--2-->
+            <div class="div-col2">
+              <h1>Karin Miller</h1>
+              <h2>"It's to difficult to buy a car... <br> Where do I begin? I'm new to this"</h2>
+              <div class="progress-bar-div">
+                <h3>General Automotive Knowledge</h3>
+                <div class="skillbar clearfix " data-percent="90%">
+                  <div class="skillbar-bar" style="background:  #d80000;"></div>
+                  <!--<div class="skill-bar-percent">90%</div>--> 
+                </div>
+                <!-- End Skill Bar -->
+                <h3>Anxiety around car ownership</h3>
+                <div class="skillbar clearfix " data-percent="30%">
+                  <div class="skillbar-bar" style="background:  #d80000;"></div>
+                  <!--<div class="skill-bar-percent">20%</div>--> 
+                </div>
+                <!-- End Skill Bar -->
+                <h3>Influenced by friends and family</h3>
+                <div class="skillbar clearfix " data-percent="70%">
+                  <div class="skillbar-bar" style="background:  #d80000"></div>
+                  <!--<div class="skill-bar-percent">50%</div>--> 
+                </div>
+                <!-- End Skill Bar --> 
+              </div>
+              <h2>While on Facebook Karin sees a <br> sponsored  message from AutoLife<br> in her feed.</h2>
+              <div class="pulse-button_2"> <a href="facebook.html">Karin's journey</a></div>
+              
+              
+              
+            </div>
+            
+            <!--2--> 
+            
+            <!--3-->
+            <div class="div-col3">
+              <h3>Life Passions Facebook</h3>
+              <ul>
+                <li><a href="#"><img src="{% static "img/ico1.png"%}"></a></li>
+                <li><a href="#"><img src="{% static "img/ico2.png"%}"></a></li>
+                <li><a href="#"><img src="{% static "img/ico3.png"%}"></a></li>
+                <li><a href="#"><img src="{% static "img/ico4.png"%}"></a></li>
+              </ul>
+            </div>
+            <!--3--> 
+            
+          </div>
+          
+          <!--4 column--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--landing page end --> 
+
+</body>
+</html>
