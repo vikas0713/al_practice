@@ -1,0 +1,4 @@
+Django==1.11.5
+django-analytical==2.2.2
+gunicorn==19.7.1
+pytz==2017.2
